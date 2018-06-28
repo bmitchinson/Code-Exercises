@@ -1,0 +1,4 @@
+# Exercism Ignores
+
+#### Python ####
+**/__pycache__
