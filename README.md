@@ -1,7 +1,7 @@
 # Code-Exercises
 
 ### Purpose:
-Using [Exercism](http://exercism.io/) to complete coding challenges.<br/>
+Using [Exercism](http://exercism.io/) to complete coding challenges.
 Hoping to use for:
 
 * JavaScript
@@ -10,4 +10,6 @@ Hoping to use for:
 * Java
 * C++
 
-It has problem sets for over 45 languages, so maybe I'll even try Go who knows.
+It has problem sets for over 45 languages, highly reccomend it to learn a new language quickly, or master futher concepts in one you may already have expereince in.
+
+All exercises come with a readme and a test suite so that every completion is done with TDD in mind.
