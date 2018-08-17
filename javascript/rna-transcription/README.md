@@ -1,16 +1,22 @@
-# Two Fer
+# RNA Transcription
 
-`Two-fer` or `2-fer` is short for two for one. One for you and one for me.
+Given a DNA strand, return its RNA complement (per RNA transcription).
 
-```text
-"One for X, one for me."
-```
+Both DNA and RNA strands are a sequence of nucleotides.
 
-When X is a name or "you".
+The four nucleotides found in DNA are adenine (**A**), cytosine (**C**),
+guanine (**G**) and thymine (**T**).
 
-If the given name is "Alice", the result should be "One for Alice, one for me."
-If no name is given, the result should be "One for you, one for me."
+The four nucleotides found in RNA are adenine (**A**), cytosine (**C**),
+guanine (**G**) and uracil (**U**).
 
+Given a DNA strand, its transcribed RNA strand is formed by replacing
+each nucleotide with its complement:
+
+* `G` -> `C`
+* `C` -> `G`
+* `T` -> `A`
+* `A` -> `U`
 
 ## Setup
 
@@ -32,7 +38,7 @@ npm install -g jasmine
 Run the test suite from the exercise directory with:
 
 ```sh
-jasmine two-fer.spec.js
+jasmine rna-transcription.spec.js
 ```
 
 In many test suites all but the first test have been marked "pending".
@@ -40,7 +46,7 @@ Once you get a test passing, activate the next one by changing `xit` to `it`.
 
 ## Source
 
-This is an exercise to introduce users to basic programming constructs, just after Hello World. [https://en.wikipedia.org/wiki/Two-fer](https://en.wikipedia.org/wiki/Two-fer)
+Rosalind [http://rosalind.info/problems/rna](http://rosalind.info/problems/rna)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
